@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Assignment</title>
+    <link rel="stylesheet" href="activity2.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="contact-us-container">
+            <h1>Contact Us</h1>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="login-container">
+            <h1>Login</h1>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
+        <div class="survey-container">
+            <h1>Survey</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male" required> Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female" required> Female
+                    </label>
+                    <label for="other">
+                        <input type="radio" id="other" name="gender" value="other" required> Other
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Programming Languages:</label>
+                    <label for="javascript">
+                        <input type="checkbox" id="javascript" name="languages[]" value="javascript"> JavaScript
+                    </label>
+                    <label for="python">
+                        <input type="checkbox" id="python" name="languages[]" value="python"> Python
+                    </label>
+                    <label for="java">
+                        <input type="checkbox" id="java" name="languages[]" value="java"> Java
+                    </label>
+                    <label for="csharp">
+                        <input type="checkbox" id="csharp" name="languages[]" value="csharp"> C#
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea id="comment" name="comment" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
