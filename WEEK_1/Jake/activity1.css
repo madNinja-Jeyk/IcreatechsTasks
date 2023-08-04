@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(69, 152, 224);
+}
+.framework-logos {
+    display: flex;
+    justify-content: center;
+    /* This makes the images appear in a single line */
+}
+
+.framework-logos img {
+    max-width: 400px;
+    /* Adjust the size as needed */
+    max-height: 200px;
+    /* This maintains the aspect ratio of the images */
+    margin-right: 10px;
+    /* Adds some spacing between the images */
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 30px auto;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
