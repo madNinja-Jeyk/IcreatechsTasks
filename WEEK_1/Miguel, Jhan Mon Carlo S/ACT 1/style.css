@@ -1,0 +1,22 @@
+h1 {
+	color: black;
+	}
+h2 {
+	color: rgb(8, 7, 90);
+	}
+h3 {
+	color: rgb(8, 7, 90);
+	}
+h4 {
+	color: rgb(8, 7, 90);
+	}
+th, tr, td {
+			  border: 2px solid whitesmoke;
+			  padding: 10px 20px;
+			}
+img {
+	width: 300px;
+	}
+body{
+	background: whitesmoke;
+	}

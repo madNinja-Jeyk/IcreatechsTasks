@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>HTML Forms Assignment</title>
+	<link rel="stylesheet" href="stlyform.css">
+	</head>
+
+	<body>
+	<form class="Contact">
+	<h1>Contact Us</h1>
+		<label for="Name:">Name:</label>
+		<input type="text" name="Name:" placeholder="Write your Name..." required>
+		<label for="E-mail">E-mail:</label>
+		<input type="email" name="Email:" placeholder="Write your E-mail..." required>
+		<p>Write a message for us.</p>
+		<textarea name="message" placeholder="Write a message!"></textarea>
+		<p>Tap to Submit!</p>
+		<input type="Submit" value="Submit" id="SubmitBtn">
+		
+	</form>
+	
+	<form action="Log-in" method="post">
+	<h1>Log In</h1>
+		<p>Username:</p>
+		<input type="text" name="Username:" placeholder="Write your Username..." required>
+		<p>Password:</p>
+		<input type="password" name="pwd" placeholder="Write your Password..." required>
+		<p>Tap to Submit!</p>
+		<input type="Submit" value="Submit" id="SubmitBtn">		
+	</form>
+	
+	<form action="#" method="post">
+	<h1>Survey</h1>
+		<label for="text">Name:</label>
+		<input type="text" name="Name:" placeholder="Write your Name..." required>
+		<label for="age">Age:</label>
+		<input type="number" name="age" placeholder="Type your age" required>
+		<p>Gender:</p>
+		<select name="Gender">
+			<option value="Gender">None</option>
+			<option value="Gender">Male</option>
+			<option value="Gender">Female</option>
+			<option value="Gender">Other</option>
+		</select>
+		<p>Course:</p>
+		<input type="text" name="Course:" placeholder="Write your Course..." required>
+		<p>Favorite Programming Languages:</p>
+		<input type="text" name="Favorite Programming Languages:" placeholder="Type your Favorite Langua..." required>
+		<p>Write a message</p>
+		<textarea name="message" placeholder="Write a message for us."></textarea>
+		<p>Tap to Submit!</p>
+		<input type="Submit" value="Submit" id="SubmitBtn">
+	</form>
+	</body>
+</html>

@@ -1,0 +1,53 @@
+h1{
+    color: rgb(8, 7, 90);
+}
+p{
+    color: rgb(8, 7, 90);
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    ;
+}
+form{
+    max-width:500px; ;
+    margin: 2rem auto;
+    border: 2px solid rgb(8, 7, 90);
+    padding: 2rem;
+    label{
+        display: block;
+    }
+input, textarea{
+    display: block;
+    width: 100%;
+}
+}
+
+input[type="submit"] {
+    background-color: rgb(8, 7, 90);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow;
+}
+.survey-question {
+    margin-bottom: 5px;
+}
+
+.btn{
+    margin-bottom: 10px;
+}
+
+textarea{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 350px;
+    font-size: 18px;
+    resize: none;
+}
